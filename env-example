@@ -1,0 +1,13 @@
+# General
+NODE_ENV=development
+
+# DB
+DB_HOST=
+DB_PORT=
+DB_NAME=
+DB_USER=
+DB_PASS=
+
+# COVID API
+COVID_API_BASE_URL=https://covid-api.com
+CRON_SCHEDULE=53 08 * * *
