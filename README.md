@@ -56,3 +56,7 @@ npm install
 
 # Jalankan server dengan hot reload di localhost:8080
 npm run dev
+
+## 🚀 Docker Run
+docker build --no-cache --platform=linux/amd64 -t covid-dashboard-service:v1.0.0 .
+docker run -d -p 9000:9000 --name covid-dashboard-service covid-dashboard-service:v1.0.0
