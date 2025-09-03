@@ -16,6 +16,7 @@ const port = process.env.PORT || 9000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
+app.use(Logger.httpLogger);
 
 // Routes
 app.use('/dashboard', dashboard);
